@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Agency Website</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="nav-wrapper">
+          <a href="#" class="logo"
+            ><img src="/img/Logo.svg" alt="Enver Logo"
+          /></a>
+          <img src="/img/Sort.svg" alt="Menu" class="menu" id="mobile-menu" />
+          <nav class="menu-nav">
+            <span class="close-menu" id="close-btn">&times;</span>
+            <ul>
+              <li><a href="#home-section">Home</a></li>
+              <li><a href="#service-section">Service</a></li>
+              <li><a href="#our-project-section">Our Project</a></li>
+              <li><a href="#about-us-section">About us</a></li>
+            </ul>
+            <ul>
+              <li class="nav-contact-us">
+                <a href="#contact-us-section">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="build-platform" id="home-section">
+          <div class="platform-text">
+            <h1>Build Your Awesome Platform</h1>
+            <p>
+              Enver studio is a digital studio that offers several services such
+              as UI/UX Design to developers, we will provide the best service
+              for those of you who use our services.
+            </p>
+            <button id="services-btn">Our Services</button>
+          </div>
+          <div class="platform-img">
+            <img src="/img/Platform.svg" alt="Platform Image" />
+          </div>
+        </section>
+        <!-- modal-for-our-services -->
+        <div class="modal-our-services" id="modal-services">
+          <div class="modal-content">
+            <header>
+              <h1>Display our Services</h1>
+              <span id="modal-close">&times;</span>
+            </header>
+            <main>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae nemo, voluptatum reprehenderit tempore suscipit magni,
+                sequi, labore nihil ipsum voluptate ea quas minima dignissimos
+                beatae ad excepturi non sed sapiente.
+              </p>
+            </main>
+          </div>
+        </div>
+        <section class="why-enver" id="service-section">
+          <div class="why-text">
+            <h1>Why Enver Is The Best Choice?</h1>
+            <p>
+              Watch this one minute video so you understand why you should use
+              our services!
+            </p>
+          </div>
+          <div class="video">
+            <iframe
+              width="100%"
+              height="200px"
+              src="https://www.youtube.com/embed/f2bJfcIHsLw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="service-provide" id="our-project-section">
+          <h1>The Service We Provide For You</h1>
+          <div class="services">
+            <div class="service">
+              <img src="/img/Development.svg" alt="Development" />
+              <div class="discription">
+                <h2>Development</h2>
+                <p>
+                  Create a platform with the best and coolest quality from us.
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/img/UI:UX Design.svg" alt="Development" />
+              <div class="discription">
+                <h2>UI/UX Designer</h2>
+                <p>
+                  We provide UI/UX Design services, and of course with the best
+                  quality
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/img/Graphics Design.svg" alt="Development" />
+              <div class="discription">
+                <h2>Graphik Designer</h2>
+                <p>
+                  We provide Graphic Design services, with the best designers
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/img/Motion Graphik.svg" alt="Development" />
+              <div class="discription">
+                <h2>Motion Graphik</h2>
+                <p>
+                  Create a platform with the best and coolest quality from us.
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/img/Photography.svg" alt="Development" />
+              <div class="discription">
+                <h2>Photography</h2>
+                <p>
+                  We provide Photography services, and of course with the best
+                  quality
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/img/Videography.svg" alt="Development" />
+              <div class="discription">
+                <h2>Videography</h2>
+                <p>
+                  Create a platform with the best and coolest quality from us.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-us" id="about-us-section">
+          <h1>Contact us for the service you want to use</h1>
+          <button>Contact us</button>
+        </section>
+      </main>
+
+      <footer id="contact-us-section">
+        <img src="/img/Logo.svg" alt="Logo" />
+        <ul class="nav">
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+        </ul>
+        <ul class="copyright">
+          <li>© 2020 Enver, All right reserved</li>
+        </ul>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
